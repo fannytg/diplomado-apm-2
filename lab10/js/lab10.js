@@ -34,6 +34,8 @@ function Validate(){};
 
   $('.button').bind('click', function(event){
 
+    $('#info').remove();
+
   	var validate = new Validate();
 
   	var data = $('#nid').val();
@@ -180,6 +182,7 @@ function Validate(){};
 
 $(document).on('click', '#info', function(){
 
+     //empty();
     $('#openModal > div').append(
       '<h2>Este es tu pedido</h2>' +
       '<ul>' +
@@ -194,7 +197,8 @@ $(document).on('click', '#info', function(){
     var meals =  JSON.parse(localStorage.getItem('meals'));
 
     $.each(meals, function(key, value){
-          $('#listMeals > ul').append('<li>El producto ' + key + ' cuesta $' + value + ' M/Cte</li>');
+         // $('#listMeals > ul').append('<li>El producto ' + key + ' cuesta $' + value + ' M/Cte</li>');
+          $('#listMeals > ul').html('<li>El producto ' + key + ' cuesta $' + value + ' M/Cte</li>');
     });
   });
 
