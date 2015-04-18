@@ -8,12 +8,9 @@
 </head>
 <body>
    <h1>Visita el Zoo</h1>
-
     <div ng-include src=" 'includes/header.html' "></div>
     <div ng-include src=" 'includes/menu.html' "></div>
-
     <div ng-view></div>
-
     <script>
         angular.module('initial_spi', ['ngRoute'])
                .config(['$routeProvider', function($routeProvider){
