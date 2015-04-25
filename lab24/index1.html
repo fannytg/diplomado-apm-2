@@ -21,14 +21,19 @@
             */
             $routeProvider.when('/hello', {
                 templateUrl : "hello.html"
-            }).when('/mobile/us', {
-                templateUrl : "us.html"
             }).otherwise({
                 redirectTo: '/',
                 templateUrl: 'otherwise.html'
             });
 
-        }])
+            $routeProvider.when('/test', {
+                templateUrl : "test.html"
+            }).otherwise({
+                redirectTo: '/',
+                templateUrl: 'otherwise.html'
+            });
+
+               }])
     </script>
 </body>
 </html>
