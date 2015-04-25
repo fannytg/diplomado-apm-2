@@ -10,5 +10,8 @@
     "framekork"
   ],
   "author": "Fanny Torrado",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
 }
