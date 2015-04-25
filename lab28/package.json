@@ -1,0 +1,14 @@
+{
+  "name": "lab28",
+  "version": "1.0.0",
+  "description": "Lab for mpm Fatg",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "framekork"
+  ],
+  "author": "Fanny Torrado",
+  "license": "ISC"
+}
