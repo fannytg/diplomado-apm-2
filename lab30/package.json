@@ -1,0 +1,14 @@
+{
+  "name": "lab30",
+  "version": "1.0.0",
+  "description": "Socket Io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "app1"
+  ],
+  "author": "FannyT",
+  "license": "ISC"
+}
